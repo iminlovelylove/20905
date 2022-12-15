@@ -1,6 +1,15 @@
 body {background-color: #ededfa;}
 
-header { height: 90px; margin: 10px;}
+header {
+  height: 90px; margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  h1 {
+    margin: 10px;
+  }
 
 nav { margin: 10px;}
 
@@ -52,11 +61,11 @@ aside#left {
 
 #main {
   font-size: 12px;
-  overflow: auto;
   float: left;
   width: 1200px;
   margin-top: 50px;
   display: flex;
+  position: relative;
   align-items: center;
   border: 1px solid navy;
 }
@@ -64,6 +73,6 @@ aside#left {
 article {
   margin: 30px;
   width: 350px;
-  height: 200px;
+  height: auto;
   text-align: center;
 }
